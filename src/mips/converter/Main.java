@@ -1,4 +1,6 @@
-import invoke.MIPSDecoder;
+package mips.converter;
+
+import mips.converter.invoke.MIPSDecoder;
 
 public class Main {
 

@@ -1,10 +1,10 @@
-package invoke;
+package mips.converter.invoke;
 
 import java.util.List;
 
-import helpers.InstructionHelpers;
-import io.ReadFile;
-import io.WriteFile;
+import mips.converter.helpers.InstructionHelpers;
+import mips.converter.io.ReadFile;
+import mips.converter.io.WriteFile;
 
 /**
  * MIPSDecoder

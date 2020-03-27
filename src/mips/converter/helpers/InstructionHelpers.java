@@ -1,4 +1,4 @@
-package helpers;
+package mips.converter.helpers;
 
 import java.util.Arrays;
 

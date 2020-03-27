@@ -1,4 +1,4 @@
-package io;
+package mips.converter.io;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
