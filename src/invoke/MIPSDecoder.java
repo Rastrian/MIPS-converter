@@ -2,7 +2,7 @@ package invoke;
 
 import java.util.List;
 
-import helpers.CommandTreatments;
+import helpers.InstructionHelpers;
 import io.ReadFile;
 import io.WriteFile;
 
@@ -28,8 +28,8 @@ public class MIPSDecoder {
 
     public static String processInstruction(String instruction) throws Exception {
         try {
-            String instructionType = CommandTreatments.getRegisterType(instruction);
-            String opcode = CommandTreatments.getOpcode(instruction);
+            String instructionType = InstructionHelpers.getRegisterType(instruction);
+            String opcode = InstructionHelpers.getOpcode(instruction);
 
             String instructionDecoded = getBinary(instructionType, instruction, opcode);
 

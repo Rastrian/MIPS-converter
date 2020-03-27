@@ -3,9 +3,9 @@ package helpers;
 import java.util.Arrays;
 
 /**
- * CommandTreatments
+ * InstructionHelpers
  */
-public class CommandTreatments {
+public class InstructionHelpers {
 
     public static String getRegisterType(String instruction) throws Exception {
         String[] typeRList = { "add", "sub", "mult", "div", "xor", "nor", "slt", "sll", "and", "srl", "jr", "or",
